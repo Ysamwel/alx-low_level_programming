@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * factorial - product of all positive integers less than or equal to @n
  * positive integer
