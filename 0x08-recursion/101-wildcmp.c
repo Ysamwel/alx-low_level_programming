@@ -16,12 +16,12 @@ int str_analyze(char *s1, char *s2, int a, int b)
 		return (1);
 	if (s1[a] == s2[b])
 		return (str_analyze(s1, s2, a + 1, b + 1));
-				}
-				if (s1[a] == '\0' && s2[b] == '*')
+		if (s1[a] == '\0' && s2[b] == '*')
 				return (str_analyze(s1, s2, a, b + 1));
 				if (s2[b] == '*')
 				return (str_analyze(s1, s2, a + 1, b) || str_analyze(s1, s2, a, b + 1));
 				return (0);
+}
 /**
  * wildcmp - finds if strings are considered identica
  * @s1: strin
