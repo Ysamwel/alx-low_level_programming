@@ -10,7 +10,10 @@ int _square_root(int i, int j)
 {
 	if (i * i == j)
 		return (i);
-	if (i * i > j)return (-1);
+
+	if (i * i > j)
+		return (-1);
+
 	return (_square_root(i + 1, j));
 }
 
