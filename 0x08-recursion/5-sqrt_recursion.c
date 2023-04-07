@@ -10,10 +10,8 @@ int _square_root(int i, int j)
 {
 	if (i * i == j)
 		return (i);
-	if (i * i > j)
-		return (_square_root(i + 1, j));
-	else
-		return (-1);
+	if (i * i > j)return (-1);
+	return (_square_root(i + 1, j));
 }
 
 
@@ -29,5 +27,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	return (_sruare_root(1, n));
+	return (_square_root(1, n));
 }
