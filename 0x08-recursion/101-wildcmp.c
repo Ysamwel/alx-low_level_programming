@@ -10,7 +10,7 @@
 
 
 
-int str_analyze(chat *s1, char *s2, int a, int b)
+int str_analyze(char *s1, char *s2, int a, int b)
 {
 	if (s1[a] == '\0' && s2[b] == '\0')
 		return (1);
