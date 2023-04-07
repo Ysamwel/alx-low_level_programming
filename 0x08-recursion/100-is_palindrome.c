@@ -40,5 +40,5 @@ int pal_analyze(char *s, int n, int o)
 
 int is_palindrome(char *s)
 {
-	return (pal_analyze(s, 0 _strlen_recursion(s) - 1));
+	return (pal_analyze(s, 0, _strlen_recursion(s) - 1));
 }
