@@ -1,0 +1,1 @@
+Let's do some memory allocation using the "malloc and free" function. Oh yes let us have control on memory allocation and dellocation with 100% assurance. Lets secure those bytes and free those that are not in use. THE POWER OF malloc and free
