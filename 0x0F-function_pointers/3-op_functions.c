@@ -1,4 +1,4 @@
-i#include "3-calc.h"
+#include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -9,6 +9,7 @@ i#include "3-calc.h"
  * @b: second number to added
  * Return: 0
  */
+
 int op_add(int a, int b)
 {
 	return (a + b);
