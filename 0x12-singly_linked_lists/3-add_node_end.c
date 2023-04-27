@@ -1,5 +1,6 @@
-/**
+#include "lists.h"/**
  * _strlen - gets str len
+ * @list_t: link address
  * @str: the string
  * Return: string len
  */
