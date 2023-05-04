@@ -17,7 +17,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		if (recent == (exclude & recent))
 			i++;
-		result <<= 1;
+		recent <<= 1;
 	}
 
 	return (i);
