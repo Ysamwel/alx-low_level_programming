@@ -5,8 +5,9 @@
  * the beginning of a dlistint_t list
  * @head: head of the list
  * @n: integer value
- * Return: address to new element
- *        */
+ * Return: address to new
+ */
+
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
