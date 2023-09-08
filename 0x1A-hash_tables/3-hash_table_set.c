@@ -32,13 +32,12 @@ hash_node_t *make_hash_node(const char *key, const char *value)
 
 
 /**
- *  * hash_table_set - sets a key to a value in the hash table
- *   * @ht: hash table to add elemt to
- *    * @key: key for the data
- *     * @value: data to store
- *      *
- *       * Return: 1 if successful, 0 otherwise
- *        */
+ * hash_table_set - sets a key to a value in the hash table
+ * @ht: hash table to add elemt to
+ * @key: key for the data
+ * @value: data to store
+ * Return: 1 if successful, 0 otherwise
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
