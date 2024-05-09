@@ -1,5 +1,6 @@
 #include "search_algos.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  * Return: Always EXIT_SUCCESS
